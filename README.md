@@ -1,5 +1,5 @@
 # TravisCIBlog
-Example Project for the Travis CI Blog.
+Example Project for the Travis CI Blog: [How to automate CI for any iOS Project](https://medium.com/@jonathan2457/how-to-automate-ci-for-any-ios-project-c98494d29a44)
 
 [![Build Status](https://travis-ci.org/jgsamudio/TravisCIBlog.svg?branch=master)](https://travis-ci.org/jgsamudio/TravisCIBlog)
 
