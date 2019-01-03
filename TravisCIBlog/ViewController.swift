@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private var backgroundState: BackgroundColorState = .red
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        updateBackgroundColor()
     }
 
-
+    @IBAction func didSelectButton(_ sender: Any) {
+        backgroundState = backgroundState.nextBackgroundState()
+        updateBackgroundColor()
+    }
 }
 
+private extension ViewController {
+    
+    func updateBackgroundColor() {
+        view.backgroundColor = backgroundState.color
+    }
+}
