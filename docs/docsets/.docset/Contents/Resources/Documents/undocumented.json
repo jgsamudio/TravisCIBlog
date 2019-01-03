@@ -57,6 +57,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/jonathansamudio/JustBinaryProjects/TravisCIBlog/TravisCIBlog/BackgroundColorState.swift",
+      "line": 21,
+      "symbol": "BackgroundColorState.red",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/jonathansamudio/JustBinaryProjects/TravisCIBlog/TravisCIBlog/ViewController.swift",
       "line": 11,
       "symbol": "ViewController",
@@ -65,8 +72,15 @@
     },
     {
       "file": "/Users/jonathansamudio/JustBinaryProjects/TravisCIBlog/TravisCIBlog/ViewController.swift",
-      "line": 13,
+      "line": 15,
       "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/jonathansamudio/JustBinaryProjects/TravisCIBlog/TravisCIBlog/ViewController.swift",
+      "line": 20,
+      "symbol": "ViewController.didSelectButton(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }

@@ -23,7 +23,7 @@
         <a class="header-link" href="../index.html">
            Docs
         </a>
-         (4% documented)
+         (29% documented)
       </p>
     
       <p class="header-col--secondary">
@@ -61,9 +61,6 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/ViewController.html">ViewController</a>
               </li>
-              <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Classes/ViewModel.html">ViewModel</a>
-              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -89,11 +86,9 @@
               </div>
             <p>The state of the possible background states.</p>
 
-<ul>
-<li>red: Red background.</li>
-<li>green: Green background.</li>
-<li>blue: Blue background.</li>
-</ul>
+<p>The state can be updated by overriding the state with the next background state.</p>
+<pre class="highlight swift"><code><span class="n">backgroundState</span> <span class="o">=</span> <span class="n">backgroundState</span><span class="o">.</span><span class="nf">nextBackgroundState</span><span class="p">()</span>
+</code></pre>
 
           </div>
         </section>
@@ -142,7 +137,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Green background state.</p>
 
                       </div>
                       <div class="declaration">
@@ -169,7 +164,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Blue background state.</p>
 
                       </div>
                       <div class="declaration">
@@ -196,7 +191,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The corresponding UIColor used to update the background color.</p>
 
                       </div>
                       <div class="declaration">
@@ -206,6 +201,37 @@
                           <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12TravisCIBlog20BackgroundColorStateO04nextcE0ACyF"></a>
+                    <a name="//apple_ref/swift/Method/nextBackgroundState()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12TravisCIBlog20BackgroundColorStateO04nextcE0ACyF">nextBackgroundState()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Provides the next background color state.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">nextBackgroundState</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">BackgroundColorState</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A background color state enum.</p>
                       </div>
                     </section>
                   </div>

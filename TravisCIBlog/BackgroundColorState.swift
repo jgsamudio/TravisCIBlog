@@ -10,14 +10,23 @@ import UIKit
 
 /// The state of the possible background states.
 ///
-/// - red: Red background.
-/// - green: Green background.
-/// - blue: Blue background.
+/// The state can be updated by overriding the state with the next background state.
+/// ```
+/// backgroundState = backgroundState.nextBackgroundState()
+/// ```
+///
 enum BackgroundColorState {
+    
+    // Red background state.
     case red
+    
+    /// Green background state.
     case green
+    
+    /// Blue background state.
     case blue
     
+    /// The corresponding UIColor used to update the background color.
     var color: UIColor {
         switch self {
         case .red:
@@ -26,6 +35,20 @@ enum BackgroundColorState {
             return .green
         case .blue:
             return .blue
+        }
+    }
+    
+    /// Provides the next background color state.
+    ///
+    /// - Returns: A background color state enum.
+    func nextBackgroundState() -> BackgroundColorState {
+        switch self {
+        case .red:
+            return .green
+        case .green:
+            return .blue
+        case .blue:
+            return .red
         }
     }
 }
