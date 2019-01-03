@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var viewModel = ViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        updateBackgroundColor()
     }
 
-
+    @IBAction func didSelectButton(_ sender: Any) {
+        viewModel.nextBackgroundColor()
+        updateBackgroundColor()
+    }
 }
 
+private extension ViewController {
+    
+    func updateBackgroundColor() {
+        view.backgroundColor = viewModel.backgroundState.color
+    }
+}
