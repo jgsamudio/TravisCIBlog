@@ -14,3 +14,9 @@ xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
 before_install:
 - pod install
 ```
+
+## Documentation
+
+Documentation for the project can be found [here](https://jgsamudio.github.io/TravisCIBlog/)
+
+Information on how the documentation was generated and hosted can be found in the blog: [Generate & Host your iOS Documentation](https://medium.com/p/39e21b382ce8/edit)
