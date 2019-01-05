@@ -58,7 +58,7 @@
     },
     {
       "file": "/Users/jonathansamudio/JustBinaryProjects/TravisCIBlog/TravisCIBlog/BackgroundColorState.swift",
-      "line": 21,
+      "line": 25,
       "symbol": "BackgroundColorState.red",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
